@@ -63,8 +63,10 @@
   &-nav {
     margin: 0;
     padding: 0;
+    padding-right: 100px;
     background: rgba(darken($primary-color, 5), 0.9);
     list-style: none;
+    align-items: center;
     transform: translate3d(0, -100%, 0);
     @include easeOut;
 
@@ -77,6 +79,7 @@
   &-branding {
     background: rgba($primary-color, 0.9);
     transform: translate3d(0, 100%, 0);
+    align-items: center;
     @include easeOut;
 
     &.show {
